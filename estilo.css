@@ -1,0 +1,96 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align:baseline ;
+}
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+
+
+body {
+    text-align: center;
+    font-family: sans-serif;
+    background-image: url(./img/galaxia-andromeda-mexico-queretaro-el-infografico.png);
+    background-size: cover;
+
+
+}
+
+.formulario {
+    width: 500px;
+    max-width: 100%;
+    margin: auto;
+    margin-top: 30px;
+    padding: 20px;
+    box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.5) ;
+    position: relative;
+    font-family: 'Fjalla One', sans-serif;
+    display: inline-block;
+}
+
+
+.head{
+    display: flex;
+    align-items: center;
+    justify-content: first baseline;
+    height: 63px;
+    background:#8933dfc5 ;
+    position: fixed;
+    width: 22%;
+    z-index: 100;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+.navbar{
+    display: flex;
+    margin-right: 10px;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+.logo{
+    margin-left: 30px;
+}
+.logo{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.navbar a{
+    display: block;
+    padding: 22px 20px ;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.navbar a:hover{
+    background:rgb(59, 2, 138);
+
+}
+
+header{
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+}
+.mensaje h1 {
+    text-align: center;
+    font-size: xx-large;
+    font-family: 'Fjalla One', sans-serif;;
+    font-size: xx-large;
+    color: #fff;
+}
+button.start {
+    text-align: center;
+    font-family: 'Fjalla One', sans-serif;;
+    font-size: xx-large;
+    color: #fff;
+    background:#8933dfc5;
+    border-radius: 10px;
+    border: 200px;
+     }
